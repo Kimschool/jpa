@@ -20,8 +20,6 @@
 
 		
  2. persistence.xml 생성  
- <div>
-	<pre>
 	 <?xml version="1.0" encoding="UTF-8"?>
 		<persistence version="2.1"
 			     xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -36,8 +34,7 @@
 			</properties>
 		    </persistence-unit>
 		</persistence>
-	    </pre>
-</div>
+
 
 
 # About Trouble   
