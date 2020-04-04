@@ -11,16 +11,16 @@
 			<version>2.5.2</version>  
 		</dependency>  
     
-    <dependency>  
+		<dependency>  
 		    <groupId>mysql</groupId>  
 		    <artifactId>mysql-connector-java</artifactId>  
 		    <version>5.1.6</version>  
 		</dependency>  
+		
  2. persistence.xml 생성  
- <?xml version="1.0" encoding="UTF-8"?>
-
-<div>
+ <div>
 	<pre>
+	 <?xml version="1.0" encoding="UTF-8"?>
 		<persistence version="2.1"
 			     xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 			     xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
