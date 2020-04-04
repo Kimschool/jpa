@@ -1,3 +1,24 @@
+# Source Tree  
+<div>
+  <img src="구조1.jpg" width="90%"></img>
+<div>
+
+# About Order  
+1. Jpa, Mysql 추가
+		<dependency>  
+			<groupId>org.eclipse.persistence</groupId>  
+			<artifactId>org.eclipse.persistence.jpa</artifactId>  
+			<version>2.5.2</version>  
+		</dependency>  
+    
+    <dependency>  
+		    <groupId>mysql</groupId>  
+		    <artifactId>mysql-connector-java</artifactId>  
+		    <version>5.1.6</version>  
+		</dependency>  
+ 2. 
+
+
 # About Trouble   
 git config core.autocrlf true
 
