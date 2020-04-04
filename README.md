@@ -1,10 +1,10 @@
 # Source Tree  
 <div>
   <img src="구조1.jpg" width="90%"></img>
-<div>
+</div>
 
 # About Order  
-1. Jpa, Mysql 추가
+1. Jpa, Mysql 추가  
  <div>
 	<pre>
 		<dependency>  
