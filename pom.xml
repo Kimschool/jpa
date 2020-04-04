@@ -129,39 +129,13 @@
 			<version>3.1.1.RELEASE</version>
 		</dependency>
 
-        <dependency>
+       <dependency>
                <groupId>org.hibernate</groupId>
                <artifactId>hibernate-entitymanager</artifactId>
                <version>5.1.0.Final</version>
        </dependency>
 
-       <dependency>
-               <groupId>org.springframework</groupId>
-               <artifactId>spring-orm</artifactId>
-               <version>${org.springframework-version}</version>
-       </dependency>
-
-		<dependency>
-			<groupId>org.eclipse.persistence</groupId>
-			<artifactId>org.eclipse.persistence.jpa</artifactId>
-			<version>2.5.2</version>
-		</dependency>
-
-		<dependency>
-		  <groupId>org.springframework.data</groupId>
-		  <artifactId>spring-data-jpa</artifactId>
-		  <version>1.10.1.RELEASE</version>
-		</dependency>
-
-		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
-		<dependency>
-		    <groupId>mysql</groupId>
-		    <artifactId>mysql-connector-java</artifactId>
-		    <version>5.1.6</version>
-		</dependency>
-
-		<!-- https://mvnrepository.com/artifact/org.hibernate.javax.persistence/hibernate-jpa-2.1-api -->
-		<dependency>
+   		<dependency>
 		    <groupId>org.hibernate.javax.persistence</groupId>
 		    <artifactId>hibernate-jpa-2.1-api</artifactId>
 		    <version>1.0.0.Final</version>
@@ -173,8 +147,6 @@
             <artifactId>spring-orm</artifactId>
             <version>${org.springframework-version}</version>
         </dependency>
-
-
 	</dependencies>
     <build>
         <plugins>

@@ -2,16 +2,18 @@ package com.kimschool.manage.entity;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
-@Entity
+@Entity // jpa전용 필수 어노테이션
 public class User_Info {
+
 	private String id;
-	@Id
+	@Id // pk에다가 지정해주는 어노테이션
 	private int no;
 	private String password;
 	private String auth1;
 	private String status;
 	private String reg_date;
 	private String email;
+
 	public String getId() {
 		return id;
 	}
@@ -54,9 +56,10 @@ public class User_Info {
 	public void setEmail(String email) {
 		this.email = email;
 	}
+
 	@Override
 	public String toString() {
-		return "UserInfo [id=" + id + ", no=" + no + ", password=" + password + ", auth1=" + auth1 + ", status="
+		return "User_Info [id=" + id + ", no=" + no + ", password=" + password + ", auth1=" + auth1 + ", status="
 				+ status + ", reg_date=" + reg_date + ", email=" + email + "]";
 	}
 
