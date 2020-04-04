@@ -5,8 +5,7 @@
 
 # About Order	
 1. Jpa, Mysql 추가	
- <div>	
-	<pre>	
+
 		<dependency>	
 			<groupId>org.eclipse.persistence</groupId>	
 			<artifactId>org.eclipse.persistence.jpa</artifactId>	
@@ -18,8 +17,7 @@
 		    <artifactId>mysql-connector-java</artifactId>	
 		    <version>5.1.6</version>	
 		</dependency>	
-	    </pre>	
-</div>		
+
 		
  2. persistence.xml 생성  
  <div>
