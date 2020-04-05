@@ -21,7 +21,7 @@ git push origin master
 ```bash
 git config core.autocrlf true
 ```  
-를 입력한다.
+를 cmd 상태에서 입력한다.
 
 # 마크업 작성예
 URL : [링크](https://www.makeareadme.com/)
