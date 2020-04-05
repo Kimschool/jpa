@@ -1,6 +1,6 @@
 # 폴더별 설명  
 Day1 : Jpa연동 직후  
-  -youtube URL : https://www.youtube.com/watch?v=otinfgwkMbY  
+  -youtube URL : https://youtu.be/SQsH1z5rDFQ
   -과제 : GitHub 생성하기  
 
 Day2 : Dao생성  
