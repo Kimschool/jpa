@@ -7,7 +7,7 @@ Day1 : Jpa연동 직후
   -youtube URL : 
   
 # GitHub생성시 유의점
-<span style="color : red">1. fatal: CRLF would be replaced by LF in ...... 에러 발생시</b>  
+<span style="color : red">1. fatal: CRLF would be replaced by LF in ...... 에러 발생시</span>  
 <span style="color : red">git config core.autocrlf true</span>을 입력  
 
 
