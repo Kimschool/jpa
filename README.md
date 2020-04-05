@@ -8,9 +8,10 @@ Day2 : Dao생성
   
 # GitHub생성시 유의점
 1. fatal: CRLF would be replaced by LF in ...... 에러 발생시
-```git
+```bash
 git config core.autocrlf true
 ```
+
 
 
 # 마크업 작성예
