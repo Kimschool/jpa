@@ -38,7 +38,13 @@
 
 
 # About Trouble   
-git config core.autocrlf true
+1. git 커밋시 crlf에러 발생시 아래의 커맨드 입력  
+<순서>  
+git init  
+git remote add origin <giturl>  
+git config core.autocrlf true  
+git add .  
+git push origin master
 
 # 참조 URL  
 - About JPQL  
