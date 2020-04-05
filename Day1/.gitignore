@@ -1,0 +1,16 @@
+# Eclipse Core
+.project
+
+# JDT
+.classpath
+
+## Eclipse ##
+bin/
+tmp/
+*.tmp
+*.bak
+local.properties
+.settings/
+.loadpath
+.recommenders
+.target
