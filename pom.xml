@@ -147,6 +147,7 @@
             <artifactId>spring-orm</artifactId>
             <version>${org.springframework-version}</version>
         </dependency>
+        
 	</dependencies>
     <build>
         <plugins>

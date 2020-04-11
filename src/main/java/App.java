@@ -15,7 +15,7 @@ public class App {
 
 		// select * from user_info where no = 1;
 		User_Info result1 = em.find(User_Info.class, 1); // no
-
+		System.out.println("test");
 //		List<User_Info> results = em.createQuery("select u from User_Info u", User_Info.class).getResultList();
 
 		System.out.println(result1);
