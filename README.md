@@ -323,6 +323,55 @@ public class HomeController {
 }
 ```
 
+- JSP수정 및 추가
+1. home.jsp
+```jsp
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ page session="false" %>
+<%@ page contentType="text/html; charset=UTF-8" %>
+<html>
+<head>
+	<title>Home</title>
+</head>
+<body>
+<h1>
+	JPA + Spring 연동
+</h1>
+
+<form action="logincheck">
+	ID : <br>
+	<input type="text" name="id"><br>
+	PASSWORD : <br>
+	<input type="password" name="password"><br><br>
+	<input type="submit" value="로그인">
+</form>
+
+</body>
+</html>
+
+```
+
+2.result.jsp  
+```jsp
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ page session="false" %>
+<%@ page contentType="text/html; charset=UTF-8" %>
+<html>
+<head>
+	<title>Result</title>
+</head>
+<body>
+
+<h1>결과페이지</h1>
+
+User_Info 테이블로부터 취득한 값은 : ${count }건 입니다.
+
+</body>
+</html>
+
+
+```
+
 # GitHub생성시 유의점
 1. fatal: CRLF would be replaced by LF in ...... 에러 발생시
 ```bash
