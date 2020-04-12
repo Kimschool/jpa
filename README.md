@@ -1,6 +1,6 @@
 # 구조
 <div>	
-  <img src="구조.png" width="90%"></img>	
+  <img src="구조.PNG" width="90%"></img>	
 </div>	
 
 # 폴더별 설명  
