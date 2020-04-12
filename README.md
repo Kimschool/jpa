@@ -12,11 +12,10 @@ Day2 : MVC기본 구조 구축
   -youtube URL : 
   -과제 : result.jsp에 user_info테이블로부터 취득건수 표시 하기
 
-
-
 <hr>
+# 구성순서
 
-# pom.xml에 dependency추가
+- pom.xml에 dependency추가
 ```bash
       <dependency>
          <groupId>mysql</groupId>
@@ -36,6 +35,32 @@ Day2 : MVC기본 구조 구축
 	    <version>5.4.0.Final</version>
 	</dependency>
 ```
+
+- com.kimschool.manage.dao패키지
+1. persistence접속용 Connection생성  
+
+```java
+package com.kimschool.manage.dao;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Connection {
+	
+	public EntityManager getConnection() {
+		EntityManagerFactory emf = Persistence.createEntityManagerFactory("db");
+		EntityManager em = emf.createEntityManager();
+		return em;
+	}
+}
+
+
+```
+
 
 # GitHub생성시 유의점
 1. fatal: CRLF would be replaced by LF in ...... 에러 발생시
