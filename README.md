@@ -93,12 +93,10 @@ public class LoginDaoImpl implements LoginDao {
 	@Autowired
 	Connection conn;
 
-	EntityManager em;
-	
-	
+		
 	@Override
 	public int findUser(String id, String password) {
-		em = conn.getConnection();
+		EntityManager em = conn.getConnection();
 		List<User_Info> result = em.createNamedQuery("User_Info.findBypassword", User_Info.class).
 				setParameter("password", password).
 				setParameter("id", id).
