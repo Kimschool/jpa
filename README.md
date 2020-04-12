@@ -381,4 +381,7 @@ git config core.autocrlf true
 URL : [링크](https://www.makeareadme.com/)
 
 # JPA 참조사이트
-https://ryan-han.com/post/jpa/jpa_basics/  
+- 총정리
+https://ryan-han.com/post/jpa/jpa_basics/   
+- 사전식
+https://ultrakain.gitbooks.io/jpa/chapter1/chapter1.html
