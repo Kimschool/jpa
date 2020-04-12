@@ -1,3 +1,6 @@
+# 구조
+<img src="구조.png">  
+
 # 폴더별 설명  
 Day1 : Jpa연동 직후  
   -youtube URL : https://youtu.be/SQsH1z5rDFQ  
