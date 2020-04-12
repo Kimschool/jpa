@@ -379,3 +379,6 @@ git config core.autocrlf true
 
 # 마크업 작성예
 URL : [링크](https://www.makeareadme.com/)
+
+# JPA 참조사이트
+https://ryan-han.com/post/jpa/jpa_basics/  
