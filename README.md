@@ -1,5 +1,7 @@
 # 구조
-<img src="구조.png">  
+<div>	
+  <img src="구조.png" width="90%"></img>	
+</div>	
 
 # 폴더별 설명  
 Day1 : Jpa연동 직후  
