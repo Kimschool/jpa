@@ -9,7 +9,7 @@ Day1 : Jpa연동 직후
   -과제 : GitHub 생성하기  
 
 Day2 : MVC기본 구조 구축  
-  -youtube URL :   https://youtu.be/16mAyJ0xrYg
+  -youtube URL :   https://youtu.be/16mAyJ0xrYg  
   -과제 : result.jsp에 user_info테이블로부터 취득건수 표시 하기  
 
 <hr>
