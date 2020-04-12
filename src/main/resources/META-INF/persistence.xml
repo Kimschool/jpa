@@ -10,6 +10,17 @@
 		    <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/pre_management"></property>
 		    <property name="javax.persistence.jdbc.user" value="root"></property>
 		    <property name="javax.persistence.jdbc.password" value=""></property>
+
+            <!-- hibernate.show_sql : 실행한 SQL을 출력. -->
+            <property name="hibernate.show_sql" value="true" />
+			<!-- hibernate.format_sql : SQL을 보기 좋게 정렬함. -->
+            <property name="hibernate.format_sql" value="true" />
+			<!-- hibernate.use_sql_comments : 쿼리 출력 시 주석도 함께 출력 -->
+            <property name="hibernate.use_sql_comments" value="true" />
+			<!-- hibernate.id.new_generator_mappings : JPA 표준에 맞는 새로운 키 생성 전략을 사용함. -->
+            <property name="hibernate.id.new_generator_mappings" value="true" />
+            
+		    
 	</properties>
     </persistence-unit>
 </persistence>
