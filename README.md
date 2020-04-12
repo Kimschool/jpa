@@ -8,17 +8,33 @@ Day1 : Jpa연동 직후
   -youtube URL : https://youtu.be/SQsH1z5rDFQ  
   -과제 : GitHub 생성하기  
 
-Day2 : Dao생성  
+Day2 : MVC기본 구조 구축
   -youtube URL : 
-  
+  -과제 : result.jsp에 user_info테이블로부터 취득건수 표시 하기
 
-# GitHub 연동법  
+
+
+<hr>
+
+# pom.xml에 dependency추가
 ```bash
-git init  
-git remote add ogirin https://github.com/xxx/xxx  
-git add .  
-git commit -m xxxxxx  
-git push origin master  
+      <dependency>
+         <groupId>mysql</groupId>
+         <artifactId>mysql-connector-java</artifactId>
+         <version>5.1.38</version>
+      </dependency>
+
+      <dependency>
+         <groupId>org.springframework</groupId>
+         <artifactId>spring-jdbc</artifactId>
+         <version>3.1.1.RELEASE</version>
+      </dependency>
+      
+      <dependency>
+	    <groupId>org.hibernate</groupId>
+	    <artifactId>hibernate-core</artifactId>
+	    <version>5.4.0.Final</version>
+	</dependency>
 ```
 
 # GitHub생성시 유의점
