@@ -370,6 +370,38 @@ User_Info 테이블로부터 취득한 값은 : ${count }건 입니다.
 
 ```
 
+# persistence.xml
+- 위치 :  
+프로젝트\src\main\resources\META-INF\persistence.xml  
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1"
+	     xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	     xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+    <persistence-unit name="db">
+
+
+       <properties>
+		    <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"></property>
+		    <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/pre_management"></property>
+		    <property name="javax.persistence.jdbc.user" value="root"></property>
+		    <property name="javax.persistence.jdbc.password" value=""></property>
+
+            <!-- hibernate.show_sql : 실행한 SQL을 출력. -->
+            <property name="hibernate.show_sql" value="true" />
+			<!-- hibernate.format_sql : SQL을 보기 좋게 정렬함. -->
+            <property name="hibernate.format_sql" value="true" />
+			<!-- hibernate.use_sql_comments : 쿼리 출력 시 주석도 함께 출력 -->
+            <property name="hibernate.use_sql_comments" value="true" />
+			<!-- hibernate.id.new_generator_mappings : JPA 표준에 맞는 새로운 키 생성 전략을 사용함. -->
+            <property name="hibernate.id.new_generator_mappings" value="true" />
+		    
+	</properties>
+    </persistence-unit>
+</persistence>
+```
+
 # GitHub생성시 유의점
 1. fatal: CRLF would be replaced by LF in ...... 에러 발생시
 ```bash
