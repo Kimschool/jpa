@@ -62,7 +62,7 @@ public class Connection {
 
 2. LoginDao인터페이스 생성  
 인터페이스? 목차(리스트)의 역활
-```bash
+```java
 package com.kimschool.manage.dao;
 
 public interface LoginDao {
@@ -75,7 +75,7 @@ public interface LoginDao {
 
 3. LoginDaoImpl 클래스 생성  
 Interface? 목차(리스트)를 구현화하는 클레스
-```bash
+```java
 package com.kimschool.manage.dao;
 
 import java.util.List;
